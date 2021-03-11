@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    char a[56]="Anshul";
+    
+    printf("%s",a);
+
+    return 0;
+}
