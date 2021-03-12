@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+ int a[10];
+ a[0]=4;
+ a[1]=8;
+ a[2]=9;
+ a[3]=a[0]+a[1];
+ a[4]=a[1]-a[0];
+ printf("sum of 4 + 8 = %d\n",a[3]);
+ printf("sub.of 8 - 4 = %d",a[4]);
+
+    return 0;
+}
