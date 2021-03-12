@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+ int a[10]={1,5,3,7,4,5};
+ printf("sum of %d + %d = %d\n",a[1],a[2],a[1]+a[2]);
+ printf("sub.of %d - %d = %d",a[3],a[0],a[4]);
+
+    return 0;
+}
