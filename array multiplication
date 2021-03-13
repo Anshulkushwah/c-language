@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int a[2][3]={{6,9,8},{4,1,2}};
+    int b[2][3]={{1,5,8},{9,4,3}};
+    
+    int ans=a[0][0]*b[0][0]*a[0][1]*b[0][1]*a[0][2]*b[0][2]*a[1][0]*b[1][0]*a[1][1]*b[1][1]*a[1][2]*b[1][2];
+    
+    printf("mulplication of matrix is %d", ans);
+
+    return 0;
+}
