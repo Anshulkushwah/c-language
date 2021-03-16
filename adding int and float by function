@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int Anshul()
+{
+    int a,b,c;
+    a=3;
+    b=4;
+    c=a+b;
+    printf("%d\n",c);
+    return c;
+}
+    
+float taksh()
+{  
+    float a,b,c;
+    a=5.12;
+    b=56.02;
+    c=a+b;
+    printf("%f\n",c);
+    return c;
+}
+int main()
+{
+    float ans;
+    ans=taksh()+Anshul();
+    printf("%f",ans);
+}
