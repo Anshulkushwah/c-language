@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+void printd()
+
+{
+    printf("Hello World");
+    
+}
+    void main()
+
+   { printd();
+}
