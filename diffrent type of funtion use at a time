@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+float multiply(float a, float b, float c)
+{ float d =a*b*c;
+    return d;
+}
+
+int addition(int a,int b,int c)
+{ int e = a + b + c;
+return e;
+}
+
+int subtract(double a, double b){
+    double c = a-b;
+return c;
+}
+
+
+int main()
+{
+ double a = multiply(4.00,5.00,7.00) + addition(1,5,7) + subtract(7,5) ;
+printf("%f",a);
+
+}
