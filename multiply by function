@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+
+float multiply(float a, float b, float c)
+{ float d =a*b*c;
+    return d;
+}
+
+
+int main()
+{
+ float a = multiply(4.00,5.00,7.00);
+printf("%f",a);
+
+}
