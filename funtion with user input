@@ -1,0 +1,45 @@
+
+#include <stdio.h>
+
+float multiply(float a, float b, float c)
+{ float d =a-b-c;
+    return d;
+}
+
+int addition(int a,int b,int c)
+{ int e = a + b + c;
+return e;
+}
+
+int subtract(double a, double b){
+    double c = a-b;
+return c;
+}
+
+
+int main()
+{
+    float a1,a2,a3;
+    printf("Enter value of a1 : ");
+    scanf("%f",&a1);
+    printf("Enter value of a2 : ");
+    scanf("%f",&a2);
+    printf("Enter value of a3 : ");
+    scanf("%f",&a3);
+        int b1,b2,b3;
+    printf("Enter value of b1 : ");
+    scanf("%d",&b1);
+    printf("Enter value of b2 : ");
+    scanf("%d",&b2);
+    printf("Enter value of b3 : ");
+    scanf("%d",&b3);
+    double c1,c2,c3;
+    printf("Enter value of c1 : ");
+    scanf("%lf",&c1);
+    printf("Enter value of c2 : ");
+    scanf("%lf",&c2);
+    
+ double a = multiply(a1,a2,a3) + addition(b1,b2,b3) + subtract(c1,c2) ;
+printf("%f",a);
+
+}
