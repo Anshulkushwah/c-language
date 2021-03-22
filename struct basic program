@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+struct Anshul {
+    int a;
+    float b;
+    double c;
+
+};
+
+
+int main()
+{
+    struct Anshul a,b;
+    
+    a.a = 5;
+    a.b = 9.5;
+
+    
+    printf("%d,%5f",a.a,a.b);
+
+    return 0;
+}
