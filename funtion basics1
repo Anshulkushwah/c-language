@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+void error();
+struct Anshul {
+    int a;
+    float b;
+    double c;
+
+};
+
+
+int main()
+{
+    struct Anshul a,b;
+    
+    a.a = 5;
+    a.b = 9.5;
+  
+    printf("%d,%f\n",a.a,a.b);
+  error();
+}
+void error()
+{
+    struct Anshul a;
+    a.b = 5;
+    printf("%f",a.b);
+}
+
+
+
