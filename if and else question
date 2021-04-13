@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int maths,science;
+    
+    printf(" enter your number maths & science :");
+    
+    scanf("%d%d",&maths,&science);
+    
+if (maths>=33 && science>=33){
+       printf("a car given you");
+}
+  
+else if (maths>=33){ 
+    printf("a nothing given you");
+      
+}
+    
+else if (science>=33){
+        printf("a nothing given you");
+}
+    
+    
+    return 0;
+}
